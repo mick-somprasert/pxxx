@@ -1,0 +1,21 @@
+.navbar{
+    display: inline-block;
+    background-color:#0C0;
+    width: 100%
+}
+.navlink{
+    float: left;
+    background-color:#0C0;
+    color: #FFF;
+    font-size: 25px;
+    padding: 5px 20px;
+    
+    border-radius: 30px;
+    -webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+}
+.navlink:hover{
+    color: #2715c8;
+    display: block;
+    background-color: #FFF;
+}

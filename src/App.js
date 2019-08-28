@@ -5,9 +5,11 @@ import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 import Home from './components/Home/Home';
 import About from './components/About/About';
+import Categories from './components/Categories/Categories';
 import Signin from './components/Signin/Signin';
 import Signup from './components/Signup/Signup';
 import Profile from './components/Profile/Profile';
+import Product from './components/Product/Product';
 
 class App extends Component {
   render() {
@@ -16,9 +18,11 @@ class App extends Component {
       <Header />
         <Route exact={true} path='/' component={Home} />
         <Route path='/about' component={About} />
+        <Route path='/categories' component={Categories} />
         <Route path='/signin' component={Signin} />
         <Route path='/signup' component={Signup} />
-      <Profile />
+        <Route path='/profile' component={Profile} />
+        <Route path='/product' component={Product} />
       <Footer />
       
       

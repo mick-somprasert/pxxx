@@ -5,20 +5,18 @@ import { Link } from 'react-router-dom';
 
 class Header extends Component {
     render(){
-        var Heaber = {
-            display: 'inlineBlock',
-            backgroundColor:'#009423',
-            color: '#FFF',
-            fontSize: 25,
-            padding: 10,
-            
+        var navbar = {    
         }
         return(
-            <div style={{display: 'block', backgroundColor: '#5efa81', fontSize:25, padding:10,}}> <br/>
-                <Link to="/" style={Heaber}>Home</Link>
-                <Link to="/about" style={Heaber}>About</Link> 
-                <Link to="/signin" style={Heaber}>Signin</Link> 
-                <Link to="/signup" style={Heaber}>Signup</Link> 
+            <div className="navbar">
+                <Link to="/" className="navlink">Home</Link>
+                <Link to="/about" className="navlink">About</Link>
+                <Link to="/categories" className="navlink">Categories</Link>
+                <Link to="/signin" className="navlink" style={{float: 'right'}}>Signin</Link> 
+                <Link to="/signup" className="navlink" style={{float: 'right'}}>Signup</Link> 
+                <Link to="/profile" className="navlink" style={{float: 'right'}}>Profile</Link>
+                <Link to="/product" className="navlink" style={{float: 'right'}}>Product</Link>
+
             </div>
         )
     }

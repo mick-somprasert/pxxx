@@ -4,7 +4,11 @@ import './Profile.css';
 class Profile extends Component {
     render(){
         return(
-            <div>Profile Page</div>
+            <div>
+                <h2>Profile</h2>
+                <img src="imgae/img1.jpg" className="thumnail" />
+
+            </div>
         )
     }
 }

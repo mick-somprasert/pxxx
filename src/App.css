@@ -1,1 +1,60 @@
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
+.myForm{
+    width: 100%;
+    background-color: #dfe6e9;
+    padding: 20px 12px 10px 20px;
+    border-radius: 30px;
+    border: 1px dashed #FF8500;
+    }
+    
+    .myLabel{
+    display: block;
+    margin: 0px 0px 15px 0px;
+    }
+    
+    .myLabel>span{
+    width: 150px;
+    font-weight: bold;
+    float: left;
+    padding-top: 8px;
+    padding-right: 5px;
+    }
+    
+    .myInput{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border: 1px solid #C2C2C2;
+    box-shadow: 1px 1px 4px #EEE;
+    -moz-box-shadow: 1px 1px 4px #EBEBEB;
+    -webkit-box-shadow: 1px 1px 4px #EBEBEB;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    padding: 7px;
+    outline: none;
+    }
+    
+    .myInput:focus{
+    border: 3px solid #0C0;
+    }
+    
+    .myButton{
+    border: none;
+    padding: 8px 15px 8px 15px;
+    background: #FF8500;
+    color: #fff;
+    box-shadow: 1px 1px 4px #DADADA;
+    -moz-box-shadow: 1px 1px 4px #DADADA;
+    -webkit-box-shadow: 1px 1px 4px #DADADA;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    }
+    
+    .myButton:hover{
+    background-color: #0C0;
+    }
+    
+    .myList{
+    list-style: none;
+    }
