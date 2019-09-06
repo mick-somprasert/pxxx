@@ -13,10 +13,10 @@ class About extends Component {
             
                 <div className="row">
                     <div className="col-4">
-                        <img src="imgae/img3.jpg" className=""></img>
+                        <img src="imgae/img3.jpg" className="" width="1000" height="600"></img>
                     </div>
                     <div className="col-8">
-                        <img src="imgae/img4.jpg" className=""></img>
+                        <img src="imgae/img4.jpg" className="" width="500" height="600"></img>
                     </div>
                 </div>
 

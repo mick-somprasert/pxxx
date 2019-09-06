@@ -1,11 +1,14 @@
 import React, {Component} from 'react';
 import './Home.css';
+import Slide from './Slide';
 
 class Home extends Component {
     render(){
         return(
-            <div>Home Page</div>
-        )
+            <div>
+                <Slide/>
+            </div>
+        );
     }
 }
 export default Home;

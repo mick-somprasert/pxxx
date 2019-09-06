@@ -5,10 +5,12 @@ class Footer extends Component {
 
     render(){
         return(
-            <div className="footer">
-                <p>Copyright@2019 Design By Somprasert Srirojrung</p>
+                <div className="footer">
+                
+                    <h3>Copyright@2019 Design By Somprasert Srirojrung</h3>
 
-            </div>
+                </div>
+        
         )
     }
 }

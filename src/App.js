@@ -10,6 +10,7 @@ import Signin from './components/Signin/Signin';
 import Signup from './components/Signup/Signup';
 import Profile from './components/Profile/Profile';
 import Product from './components/Product/Product';
+import Member from './components/Member/Member';
 
 class App extends Component {
   render() {
@@ -23,6 +24,7 @@ class App extends Component {
         <Route path='/signup' component={Signup} />
         <Route path='/profile' component={Profile} />
         <Route path='/product' component={Product} />
+        <Route path='/Member' component={Member} />
       <Footer />
       
       

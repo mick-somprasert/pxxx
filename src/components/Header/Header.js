@@ -16,7 +16,7 @@ class Header extends Component {
                 <Link to="/signup" className="navlink" style={{float: 'right'}}>Signup</Link> 
                 <Link to="/profile" className="navlink" style={{float: 'right'}}>Profile</Link>
                 <Link to="/product" className="navlink" style={{float: 'right'}}>Product</Link>
-
+                <Link to="/member" className="navlink">Member</Link>
             </div>
         )
     }
